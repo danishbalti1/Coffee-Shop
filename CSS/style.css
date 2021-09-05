@@ -483,6 +483,8 @@ footer .box-container{
 .home-icons a{
     color:white;
     font-size:2rem;
+    display:flex;
+    flex-wrap: wrap;
     border:var(--border);
     margin:0 .6rem;
     padding:1rem 3rem;

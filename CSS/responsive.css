@@ -1,0 +1,47 @@
+ @media(max-width:700px){
+    .header .icons{
+        display:none;
+    }
+    .header .navbar a{
+        font-size:1.2rem;
+        width:100%;
+        margin:0 .6rem;
+    }
+    .home .content h1{
+        font-size:2.8rem;
+    }
+    .home .content p{
+        font-size:1.3rem;
+        color:white;
+    }
+    .btn{
+        padding:10px 20px;
+    }
+    .row{
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    .menu{
+        margin-left:4rem;
+    }
+    .menu .box-container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .products{
+        margin-left:5rem;
+    }
+    .reviews{
+        margin-left:5rem;
+    }
+    .blogs{
+        margin-left:5rem;
+    }
+    .blogs .box-container {
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+
+}
